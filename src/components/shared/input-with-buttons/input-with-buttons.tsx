@@ -1,6 +1,6 @@
 import s from './input-with-buttons.module.scss'
 import { Input } from '../input/input'
-import { IInputViewModel } from '../../../store/input-view-model/input-view-model.interface'
+import { IInputViewModel } from '../../../interfaces/input-view-model.interface'
 import { Button } from '../button/button'
 import { EMPTY_LIST } from '../../../constants/empty-list'
 

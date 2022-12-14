@@ -1,6 +1,6 @@
 import s from './input.module.scss'
 import { observer } from 'mobx-react-lite'
-import { IInputViewModel } from '../../../store/input-view-model/input-view-model.interface'
+import { IInputViewModel } from '../../../interfaces/input-view-model.interface'
 import { ComponentProps } from 'react'
 
 type Props = {

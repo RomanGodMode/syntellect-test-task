@@ -1,5 +1,5 @@
 import { makeAutoObservable } from 'mobx'
-import { IInputViewModel } from '../../../../store/input-view-model/input-view-model.interface'
+import { IInputViewModel } from '../../../../interfaces/input-view-model.interface'
 import { isNumber } from '../../../../functions/is-number'
 
 export class Example2ViewModel implements IInputViewModel {

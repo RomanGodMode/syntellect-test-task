@@ -1,6 +1,6 @@
 import s from './autocomplete-input.module.scss'
 import { Input } from '../input/input'
-import { IAutocompleteInputViewModel } from '../../../store/input-view-model/input-view-model.interface'
+import { IAutocompleteInputViewModel } from '../../../interfaces/input-view-model.interface'
 import { observer } from 'mobx-react-lite'
 import React, { ReactNode } from 'react'
 import { useOnAnyClick } from '../../../hooks/dom/use-on-any-click'

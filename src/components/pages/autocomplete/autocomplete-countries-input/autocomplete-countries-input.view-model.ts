@@ -1,5 +1,5 @@
 import { makeAutoObservable } from 'mobx'
-import { IAutocompleteInputViewModel } from '../../../../store/input-view-model/input-view-model.interface'
+import { IAutocompleteInputViewModel } from '../../../../interfaces/input-view-model.interface'
 import { CountryInfo, getCountryByName } from '../../../../api/apiService'
 import { debounce } from '../../../../functions/debounce'
 

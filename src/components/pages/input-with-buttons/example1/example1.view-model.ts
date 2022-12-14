@@ -1,4 +1,4 @@
-import { IInputViewModel } from '../../../../store/input-view-model/input-view-model.interface'
+import { IInputViewModel } from '../../../../interfaces/input-view-model.interface'
 import { makeAutoObservable } from 'mobx'
 
 // мы не можем использовать наследование с makeAutoObservable(но я предпочёл makeAutoObservable)
