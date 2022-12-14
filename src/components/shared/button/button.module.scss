@@ -1,0 +1,15 @@
+@import "src/variables";
+
+.button {
+  background-color: $dark;
+  color: $white;
+  border: none;
+  padding: 5px 15px;
+  outline: none;
+  cursor: pointer;
+  transition: all ease .3s;
+
+  &:hover, &:focus {
+    color: $highlighted-color;
+  }
+}

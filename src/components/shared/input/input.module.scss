@@ -1,0 +1,13 @@
+@import "src/variables";
+
+.input {
+  font-size: 18px;
+  border: 1px solid $dark;
+  outline: none;
+  padding: 5px;
+  transition: all ease .3s;
+
+  &:focus {
+    border-color: $highlighted-color;
+  }
+}
